@@ -5,7 +5,7 @@ echo "Introduce el nombre del archivo:"
 read archivo
 echo
 printf " 1  2  3\n"
-cat $archivo
+batcat $archivo
 echo "Desde qué línea desea copiar?"
 read inicio
 echo "Hasta qué línea desea copiar?"
