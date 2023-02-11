@@ -1,0 +1,65 @@
+Pregunta 1 / 10
+¿Qué representa la siguiente tarea Cron?
+￼****1
+Se va a ejecutar una tarea cada minuto sólo los días Lunes
+
+
+Pregunta 2 / 10
+¿Qué definición de tarea Cron tendré que establecer si quiero ejecutar un script en el primer día de cada mes, a cada primer minuto pasada la hora?
+
+
+Pregunta 3 / 10
+¿Qué representa la siguiente tarea Cron?
+*****
+
+
+Pregunta 4 / 10
+Si quisiera correr una tarea cada minuto, en el día dos de un mes, sólo para el mes de Enero, ¿de qué forma podría definir la tarea?
+* * 2 1 *
+
+Pregunta 5 / 10
+Relaciona las siguientes tareas con sus representaciones
+Cada 2 minutos
+En el segundo minuto de cada hora
+En el primer minuto cada 2 horas pasadas
+Cada minuto, en el día 2 de cada mes
+Cada minuto, cada 2 días
+Cada minuto, cada 2 meses
+Cada minuto, cada 3 horas, cada 2 días, cada 2 meses
+Cada 2 minutos, en el día 1 del mes y también los días Martes
+*/2 * * * *
+2 * * * *
+1 */2 * * *
+* * 2 * *
+* * */2 * *
+* * * */2 *
+* */3 */2 */2 *
+*/2 * 1 * 2
+
+
+Pregunta 6 / 10
+¿De qué forma podría definir una tarea que se ejecute a las 5:30 PM los días Lunes del mes de Junio?
+30 17 * 6 1
+
+
+Pregunta 7 / 10
+¿Qué representa la siguiente tarea Cron?
+￼*/2*1*3
+Se va a ejecutar una tarea cada dos minutos, en el primer día de cada mes y los días Miércoles
+
+Pregunta 8 / 10
+¿Cómo podría configurar una tarea cron la cual deseo que se ejecute cada 5 minutos, el último día sólo del mes de Marzo?
+
+
+Pregunta 9 / 10
+¿Qué quiere decir esta expresión?
+**L*L
+Que vamos a ejecutar una tarea cada minuto, en el último día de cada mes y los días Sábado
+
+Pregunta 10 / 10
+¿Cómo tendría que definir mi tarea Cron si quisiera ejecutar un script cada minuto entre el rango de las 5:00 AM y las 5:59 AM?
+* 5 * * *
+
+ME FALTAN LA PREGUNTA 2,3 Y 8
+
+
